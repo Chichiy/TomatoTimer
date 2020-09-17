@@ -171,8 +171,10 @@
             //display remaining time
                 if(sec < 10){
                     display.innerHTML = min + " : 0" + sec;
+                    document.title = String(display.innerHTML);
                 } else {
                     display.innerHTML = min + " : " + sec;
+                    document.title = String(display.innerHTML);
                 }
 
             //change color
