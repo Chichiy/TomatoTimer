@@ -1,0 +1,125 @@
+body {
+	font-family: "Staatliches", cursive;
+	margin: 0;
+	background-color: #99bb99;
+}
+.hide {
+	display: none;
+}
+.container {
+	width: 760px;
+	height: 100vh;
+	margin: 0 auto;
+	background-color: hsl(120, 30%, 50%);
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2), 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+.header {
+	height: 10%;
+	background-color: hsl(120, 50%, 25%);
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	vertical-align: middle;
+}
+.main {
+	height: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	position: relative;
+}
+
+.footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/* tomato */
+#greenTomato {
+	width: 60%;
+	height: 60%;
+	margin: auto;
+}
+
+.cls-1 {
+	fill: hsl(120, 100%, 50%);
+	/* stroke: #910202;
+    stroke-width: 0px; */
+	transition: fill linear 1s;
+}
+.cls-1,
+.cls-2 {
+	stroke-miterlimit: 10;
+}
+.cls-2 {
+	fill: #203800;
+	stroke: #203800;
+	stroke-width: 7px;
+}
+.cls-3 {
+	fill: #203800;
+}
+
+#display {
+	font-size: 50px;
+	color: white;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	line-height: 2;
+	text-align: center;
+}
+
+.button {
+	width: 300px;
+	background-color: rgba(0, 0, 0, 0.3);
+	text-align: center;
+	font-size: 30px;
+	margin: 5px;
+	padding: 10px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	border: none;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+	transition: 0.3s;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.button:hover {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#start {
+	width: 630px;
+}
+
+@media screen and (max-width: 760px) {
+	.container {
+		width: 400px;
+	}
+	.header {
+		font-size: 40px;
+		height: auto;
+		padding: 5px;
+	}
+	.main {
+		height: 60%;
+	}
+	.button {
+		width: 100px;
+	}
+	#start {
+		width: 230px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.container {
+		width: 100%;
+	}
+}
