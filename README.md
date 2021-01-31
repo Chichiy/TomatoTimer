@@ -1,4 +1,4 @@
-# TomatoTimer
+# Tomato Timer
 
 A simple web tool helps improving productivity by tracking time.
 
@@ -16,13 +16,8 @@ Link: https://chichiy.github.io/TomatoTimer/
 
 ## Features
 
-### Time Tracker
-
-Counting down for given time.
-
-### Notification of Remaining Time
-
-Showing remaining time on website title for better user experience.
+- Counting down for given time.
+- Showing remaining time on website title for better user experience.
 
 ## Future Features
 
