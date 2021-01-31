@@ -62,13 +62,29 @@ body {
 }
 
 #display {
+	margin: 25px 0;
 	font-size: 50px;
 	color: white;
 	width: 100%;
 	position: absolute;
 	bottom: 0;
-	line-height: 2;
 	text-align: center;
+}
+
+.manuallyInput {
+	margin: 25px 0;
+	font-size: 50px;
+	color: white;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	background: transparent;
+	border: none;
+}
+
+.manuallyInput:focus {
+	outline: none;
 }
 
 .button {

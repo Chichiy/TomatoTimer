@@ -13,6 +13,7 @@ let display = document.getElementById("display"),
 	startBtn = document.getElementById("start");
 tomato = document.querySelector("#greenTomato  .cls-1");
 
+//install eventhandlers
 addBtn.onclick = function () {
 	changeTime(1);
 };
@@ -23,7 +24,13 @@ startBtn.onclick = function () {
 	timer(time);
 };
 
-//control panel
+// display.onclick = manuallyInput;
+
+function manuallyInput(e) {
+	console.dir(e.currentTarget);
+	e.currentTarget.outerHTML = `<input class="manuallyInput" type="text" value="${e.currentTarget.innerHTML}"/ >`;
+}
+
 //input time
 function changeTime(par) {
 	if (par === 1) {
