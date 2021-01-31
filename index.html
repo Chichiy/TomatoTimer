@@ -8,8 +8,8 @@
 		<link rel="stylesheet" href="css/main.css" />
 	</head>
 	<body>
+		<div class="header"><span>TOMATO TIMER</span></div>
 		<div class="container">
-			<div class="header"><span>TOMATO TIMER</span></div>
 			<div class="main">
 				<svg id="greenTomato" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 819.69 710.65">
 					<g data-name="Layer 2">
@@ -26,13 +26,18 @@
 						</g>
 					</g>
 				</svg>
-				<div id="display">25 : 00</div>
+
+				<div class="time">
+					<input type="number" id="minInput" name="minute" min="1" max="60" class="manuallyInput hide" />
+					<span id="display">25 : 00</span>
+				</div>
 			</div>
 			<div class="footer">
 				<div id="decrease" class="button">-</div>
 				<div id="add" class="button">+</div>
 				<div id="start" class="button">Start</div>
-				<div id="stop" class="hide button">stop</div>
+				<div id="pause" class="hide button">Pause</div>
+				<div id="stop" class="hide button">Stop</div>
 			</div>
 		</div>
 
