@@ -21,7 +21,7 @@ Link: https://chichiy.github.io/TomatoTimer/
 
 ## Future Features
 
-- Allow Input time.
+- Rewrite with Vue
 - Add To-do list below time tracker.
 - Record total focus time on the side.
 
